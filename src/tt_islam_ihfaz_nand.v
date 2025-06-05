@@ -27,7 +27,7 @@ module tt_islam_ihfaz_nand (
     not(Y, Yd);
 
     // Assign outputs
-    assign uo_out[0] = Yd
+    assign uo_out[0] = Y;
     assign uo_out[1] = 1'b0;
     assign uo_out[2] = 1'b0;
     assign uo_out[3] = 1'b0;
