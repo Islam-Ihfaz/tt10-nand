@@ -40,6 +40,6 @@ module tt_islam_ihfaz_nand (
     assign uio_oe  = 0;
 
     // List all unused inputs to prevent warnings
-    wire _unused = &{ena, clk, rst_n, ui_in[7:2], uio_in 1'b0};
+    wire _unused = &{ena, clk, rst_n, ui_in[7:2], uio_in, 1'b0};
 
 endmodule
